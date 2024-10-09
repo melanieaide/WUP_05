@@ -1,7 +1,7 @@
 ---
 title: "Aides Drug"
-author: "Put your name here!"
-date: "put the date here"
+author: "Melanie Vera"
+date: "8 October, 2024"
 output: html_document
 ---
 
@@ -20,6 +20,10 @@ A new  preventative aides drug (triUmpsal) is under test in clinical trials. Con
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
+
+$H_O$: The vaccine is not effective in preventing women from contracting aids.
+
+$H_A$: The vaccine is effective in preventing women from contracting aids.
 
 # Results
 
