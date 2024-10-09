@@ -30,7 +30,7 @@ $H_A$: The vaccine is effective in preventing women from contracting aids.
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ```{r}
-women <- triUmpsal[triUmpsal$gender=='F',]
+women <- triUmp[triUmp$gender=='F',]
 ```
 
 ## Descriptive Results
@@ -45,7 +45,7 @@ barchartGC(~infected + treatment,data=women, type="percent")
 
 ```
 
-Among women who contracted aids, most of them had undergone treatment. Therefore tht treatment does not appear to be effective.
+Among women who contracted aids, most of them had undergone treatment. Therefore tht treatment does not appear to be effective in preventing aids.
 
 ### Numerical Descriptive Results
 
@@ -69,8 +69,10 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
+With this data, we must reject the null hypothesis because the p-value is 0.0000768, which is less than 0.05. The odds show that if you are a women and you take the treatment, you are 1.54 times more likely to attract aids than those who didn't.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion, we conducted several tests to prove if the treatment is effective or not in preventing aids but rather it contracts aids.With this data, we must reject the null hypothesis because the p-value is 0.0000768, which is less than 0.05.
